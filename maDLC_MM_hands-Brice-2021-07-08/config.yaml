@@ -38,12 +38,24 @@ multianimalbodyparts:
 - littleStart
 - littleEnd
 skeleton:
-- - bodypart1
-  - bodypart2
-- - bodypart2
-  - bodypart3
-- - bodypart1
-  - bodypart3
+- - thumbStart
+  - thumbEnd
+- - ringStart
+  - ringEnd
+- - middleStart
+  - ringStart
+- - ringStart
+  - littleStart
+- - middleStart
+  - middleEnd
+- - littleStart
+  - littleEnd
+- - indexStart
+  - indexEnd
+- - indexStart
+  - middleStart
+- - thumbStart
+  - indexStart
 bodyparts: MULTI!
 start: 0
 stop: 1
